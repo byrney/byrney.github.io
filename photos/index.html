@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+		<title>My Awesome Photos - subdir</title>
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+		<link type="text/css" rel="stylesheet" media="all" href="./global.css" />
+		<script src="./json.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="./cookie.js"></script>
+		<script src="./global.js"></script>
+	</head>
+<body data-resolution="3840 2560 1920 1280 1024 640" data-respath="subdir/">
+	
+<ol id="marker">
+</ol>
+
+<div id="sidebar">
+	<div class="foreground">
+		<div id="profile" class="camera icon"></div>
+		<h1>My Awesome Photos</h1>
+		<ul id="nav">
+			<li class="gallery active" data-image="lesflickr20150708110757"><a href="./subdir"><span>subdir</span></a><ul></ul></li><li class="gallery " data-image="lesflickr20150710132630"><a href="./subdir2"><span>subdir2</span></a><ul></ul></li>			 
+		</ul>
+	</div>
+	
+	<ul id="control">
+	<li><a href="#" id="resbutton"><span class="monitor icon"></span><span class="restext"></span></a></li>
+	<li style="display: block"><a href="#" id="textbutton" class="active"><span class="toggle icon"></span><span class="text">hide text</span></a></li>
+	<li style="display: block"><a href="#" id="sharebutton"><span class="heart icon"></span>share</a></li>
+	<li  style="display: none"><a href="#" id="download"><span class="download icon"></span>download</a></li>
+	</ul>
+			
+	<div class="background"></div>
+</div>
+
+<div id="resolution">
+</div>
+
+<div id="share">
+	<ul>
+	<li><a href="https://news.ycombinator.com/submit" target="_blank"><span class="icon hackernews"></span> Hackernews</a></li>
+	
+	<li><a href="#" onclick="window.open('https://www.facebook.com/sharer.php?u=' + encodeURIComponent(window.location)); return false">
+		<span class="icon facebook"></span> Facebook
+	</a></li>
+	
+	<li><a href="#" onclick="window.open('https://www.reddit.com/submit?url=' + encodeURIComponent(window.location)); return false">
+		<span class="icon reddit"></span> Reddit
+	</a></li>
+	
+	<li><a href="#" id="pinterest"><span class="icon pinterest"></span> Pinterest</a></li>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#pinterest').click(function(){
+				window.open('http://pinterest.com/pin/create/button/?url='+encodeURIComponent(window.location)+'&media='+encodeURIComponent(window.location)+($(current_slide).data('url')+'/'+$('#resolution li').eq(0).data('res')+'.jpg'));
+				return false;
+			});
+		});
+	</script>
+	
+	
+	<li><a href="#" onclick="window.open('https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location)); return false">
+		<span class="icon twitter"></span> Twitter
+	</a></li>
+	
+	</ul>
+</div>
+
+<div id="main">
+	<div class="slide" style="color: #ffffff; background-color: #6A5C56" data-type="image" data-width="30" data-height="20" data-imagewidth="1024" data-imageheight="681" data-textcolor="#ffffff" data-color1="#3A2D1D" data-color2="#6A5C56" data-color3="#906D62" data-color4="#A59669" data-color5="#637E99" data-color6="#A29A9A" data-color7="#C9C9D1" data-videoformats="h264 vp8" data-polygon=''> 	<a name="1" class="internal"></a> 	 	<div class="post" style="top: 10%; left: 5%; width: 30%; height: 20%"> 		<div class="content"> 		<h1>Face Paints for Alexa</h1> 		</div> 	</div> 			 	<img class="image blank" src="//:0" width="1024" height="681" data-url="lesflickr20150708110757" /> </div>
+	
+	<div id="comments">
+	<div id="disqus_thread"></div>
+	</div>
+	
+	<script type="text/javascript">
+		var disqus_shortname = '';
+		var disqus_identifier = 'subdir';
+		
+		if(disqus_shortname){
+			(function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		}
+	</script>
+</div>
+
+</body>
+</html>
