@@ -26,13 +26,6 @@ the current system
   </tbody>
 </table>
 
-Pattern Name: Don't allow people who built the current system to taint the
-              design of its replacement
-
-Aliases: none (that I can think of right now)
-
-Pattern Type: Organisational
-
 
 ## Risks ##
 
@@ -90,8 +83,8 @@ upset him and he's the only guy who can keep MCoS running.
 
 Obviously the MCoS team are not going to be able to do this by themselves.
 They probably know many or the issues with the current system but may not have
-experience of workable alternatives. You need new blood, not blue sky thinking but people who
-who know one (or more) workable approaches for the issues.
+experience of workable alternatives. You need new blood, not blue sky thinking
+but people who who know one (or more) workable approaches for the issues.
 
 
 The MCoS team still have crucial relationships and knowledge about the system
