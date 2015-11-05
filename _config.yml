@@ -11,6 +11,8 @@ description:       'Reluctantly Enterprising'
 url:
 baseurl:             ""
 paginate:            5
+github:
+  repo:              http://github.com/byrney
 
 # About/contact
 author:
