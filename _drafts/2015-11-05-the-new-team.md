@@ -8,6 +8,8 @@ needs replacing. Draft in a new team of people from other businesses or
 organisations to construct the replacement leaving the MCoS team to maintain
 the current system
 
+
+
 <table>
   <tbody>
     <tr>
@@ -45,8 +47,11 @@ the current system
   they're leaving.
 
 The result? Your estimate for how long the replacement will take is massively
-optimistic. During the delay, MCoS will have changed (new products have been
-added, those critical regulatory changes have gone in).
+optimistic. It always was but now you can double it. During the delay, MCoS
+will have changed (new products have been added, those critical regulatory
+changes have gone in). Your blitzkrieg upgrade plan, avoiding the pain of
+keeping two systems in sync for a prolonged period, is marching towards Russia
+-- winter is comming.
 
 ## Justifications ##
 
@@ -54,7 +59,7 @@ added, those critical regulatory changes have gone in).
   getting dragged into daily issues
 * The MCoS team don't understand Shiny Technology X they're all McScripters
 * The MCoS team have, thus far, failed to address the major archiectural
-  issues
+  issues, clearly they are not capable
 * The MCoS team are stuck in a rut of doing things the MCoS way
 * Besides, we need them to deliver all the critical reg fixes
 * MCoS doesn't work, we need to change things up
@@ -65,7 +70,7 @@ New Team Team Lead: You sold New Guy a vision of greenfield development in
                     Shiny Technology X. Now you want him
                     to learn McScript?  Nah...
 
-## Opposing Patterns##
+## Opposing Patterns ##
 
 Keep adding resources to MCoS which just get diverted into doing BAU
 
